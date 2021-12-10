@@ -1,0 +1,2 @@
+cat ../Saavedra2013/n20.txt | wc -l 
+head -n20 ../Saavedra2013/n20.txt | tr -d " " | tr -d "\n" | wc -c
